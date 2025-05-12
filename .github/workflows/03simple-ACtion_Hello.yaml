@@ -15,4 +15,4 @@ jobs:
         with:
           who-to-greet: asdas
       - name: print1
-        run: echo "${{steps.print-to-log.outputs.time}}"
+        run: echo "@@@@ ${{steps.print-to-log.outputs.time}}"
