@@ -1,6 +1,8 @@
 name: First Workflow1
-on: [push]
-
+on:
+  push:
+    branches:
+      - "test1"
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
