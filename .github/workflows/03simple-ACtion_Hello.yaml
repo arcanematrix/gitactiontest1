@@ -1,4 +1,4 @@
-name: Working Dirs & Shells
+name: Simple Action Hello
 on: [push]
 
 jobs:
