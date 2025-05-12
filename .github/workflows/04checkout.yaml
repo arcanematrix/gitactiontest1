@@ -11,6 +11,6 @@ jobs:
         with:
           sparse-checkout: |
             .github
-            src
+            a
       - name: List Files after
         run: ls -a
